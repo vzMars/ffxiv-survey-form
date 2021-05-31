@@ -1,0 +1,67 @@
+body {
+  background-image: url("/images/ffxiv2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  text-align: center;
+  color: #ffd19a;
+  font-weight: 800;
+  font-size: 25px;
+  text-shadow: 2px 2px #000000;
+}
+
+main {
+  border-radius: 5px;
+  max-width: 800px;
+  margin: auto;
+  margin-top: 30px;
+  padding: 10px;
+  margin-bottom: 50px;
+  background: rgba(211, 211, 211, 0.6);
+}
+
+#survey-form {
+  padding: 30px;
+  font-size: 20px;
+}
+
+.input-section,
+#comment-section {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+#name-label,
+#email-label,
+#number-label,
+#dropdown-label,
+#role-label,
+#job-label,
+#comments-label {
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+input,
+select,
+textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button[type="submit"] {
+  background-color: #78dded;
+  text-align: center;
+  width: 100%;
+  border: none;
+  color: #000000;
+  padding: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+}

@@ -1,168 +1,187 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <metal
-         charset="utf-8"
-         name="viewport"
-         content="width=device-width, initial-scale=1"
-         />
-      <title>Final Fantasy XIV Survey Form</title>
-      <link href="styles/style.css" rel="stylesheet" />
-   </head>
-   <body>
-      <header>
-         <h1 id="title">Final Fantasy XIV Survey Form</h1>
-         <p id="description">Thank you for taking the time to answer these questions</p>     
-      </header>
-      <main>
-         <form id="survey-form">
-            <div class="survey-section"">
-               <label id="name-label" for="name">Name</label>
-               <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  placeholder="Enter your name"
-                  required
-                  />
-            </div>
-            <div class="survey-section">
-               <label id="email-label" for="email">Email</label>
-               <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  placeholder="Enter your email"
-                  required
-                  />
-            </div>
-            <div class="survey-section">        
-               <label id="number-label" for="number">Number</label>
-               <input
-                  type="number"
-                  id="number"
-                  name="number"
-                  placeholder="Age"
-                  required
-                  min="10"
-                  max="99"
-                  />
-            </div>
-            <div class="survey-section">
-               <label id="dropdown-label" for="dropdown">What server are you in?</label>
-               <select id="dropdown" name="dropdown" required>
-                  <option disabled selected>Select a server</option>
-                  <option value="aether">Aether</option>
-                  <option value="chaos">Chaos</option>
-                  <option value="crystal">Crystal</option>
-                  <option value="elemental">Elemental</option>
-                  <option value="gaia">Gaia</option>
-                  <option value="light">Light</option>
-                  <option value="mana">Mana</option>
-                  <option value="primal">Primal</option>
-               </select>
-            </div>
-            <div class="survey-section">
-               <label for="roles">Choose your favorite role</label>
-               <input id="tank" type="radio" name="roles" value="tank" checked />
-               <label id="tank-label" for="tank">Tank</label>
-               <input id="healer" type="radio" name="roles" value="healer" />
-               <label id="healer-label" for="healer">Healer</label>
-               <input id="melee-dps" type="radio" name="roles" value="melee-dps" />
-               <label id="melee-dps-label" for="melee-dps">Melee DPS</label>
-               <input
-                  id="physical-ranged-dps"
-                  type="radio"
-                  name="roles"
-                  value="physical-ranged-dps"
-                  />
-               <label id="physical-ranged-dps-label" for="physical-ranged-dps">Physical Ranged DPS</label>
-               <input
-                  id="magic-ranged-dps"
-                  type="radio"
-                  name="roles"
-                  value="magic-ranged-dps"
-                  />
-               <label id="magic-ranged-dps-label" for="magic-ranged-dps">Magic Ranged DPS</label>
-            </div>
-            <div class="survey-section">
-               <label for="jobs">Choose your favorite jobs</label>
-               <input id="paladin" type="checkbox" name="jobs" value="paladin" />
-               <label id="paladin-label" for="paladin">Paladin</label>
-               <input id="warrior" type="checkbox" name="jobs" value="warrior" />
-               <label id="warrior-label" for="warrior">Warrior</label>
-               <input
-                  id="dark-knight"
-                  type="checkbox"
-                  name="jobs"
-                  value="dark-knight"
-                  />
-               <label id="dark-knight-label" for="dark-knight">Dark Knight</label>
-               <input
-                  id="gunbreaker"
-                  type="checkbox"
-                  name="jobs"
-                  value="gunbreaker"
-                  />
-               <label id="gunbreaker-label" for="gunbreaker">Gunbreaker</label>
-               <input
-                  id="white-mage"
-                  type="checkbox"
-                  name="jobs"
-                  value="white-mage"
-                  />
-               <label id="white-mage-label" for="white-mage">White Mage</label>
-               <input id="scholar" type="checkbox" name="jobs" value="scholar" />
-               <label id="scholar-label" for="scholar">Scholar</label>
-               <input
-                  id="astrologian"
-                  type="checkbox"
-                  name="jobs"
-                  value="astrologian"
-                  />
-               <label id="astrologian-label" for="astrologian">Astrologian</label>
-               <input id="sage" type="checkbox" name="jobs" value="sage" />
-               <label id="sage-label" for="sage">Sage</label>
-               <input id="dragoon" type="checkbox" name="jobs" value="dragoon" />
-               <label id="dragoon-label" for="dragoon">Dragoon</label>
-               <input id="monk" type="checkbox" name="jobs" value="monk" />
-               <label id="monk-label" for="monk">Monk</label>
-               <input id="ninja" type="checkbox" name="jobs" value="ninja" />
-               <label id="ninja-label" for="ninja">Ninja</label>
-               <input id="samurai" type="checkbox" name="jobs" value="samurai" />
-               <label id="samurai-label" for="samurai">Samurai</label>
-               <input id="reaper" type="checkbox" name="jobs" value="reaper" />
-               <label id="reaper-label" for="reaper">Reaper</label>
-               <input id="bard" type="checkbox" name="jobs" value="bard" />
-               <label id="bard-label" for="bard">Bard</label>
-               <input id="machinist" type="checkbox" name="jobs" value="machinist" />
-               <label id="machinist-label" for="machinist">Machinist</label>
-               <input id="dancer" type="checkbox" name="jobs" value="dancer" />
-               <label id="dancer-label" for="dancer">Dancer</label>
-               <input id="summoner" type="checkbox" name="jobs" value="summoner" />
-               <label id="summoner-label" for="summoner">Summoner</label>
-               <input
-                  id="black-mage"
-                  type="checkbox"
-                  name="jobs"
-                  value="black-mage"
-                  />
-               <label id="black-mage-label" for="black-mage">Black Mage</label>
-               <input id="red-mage" type="checkbox" name="jobs" value="red-mage" />
-               <label id="red-mage-label" for="red-mage">Red Mage</label>
-            </div>
-            <div class="survey-section">
-               <label for="comments">Any comments?</label>
-               <textarea
-                  id="comments"
-                  name="comments"
-                  placeholder="Enter your comments here..."></textarea>
-            </div>
-            <div class="survey-section">
-                <button id="submit" type="submit">Submit</button>
-            </div>
-         </form>
-      </main>
-      <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
-   </body>
+  <head>
+    <metal
+      charset="utf-8"
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+    <title>Final Fantasy XIV Survey Form</title>
+    <link href="styles/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Final Fantasy XIV Survey Form</h1>
+      <p id="description">
+        Thank you for taking the time to answer these questions
+      </p>
+    </header>
+    <main>
+      <form id="survey-form">
+        <div class="input-section">
+          <label id="name-label" for="name">Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <br />
+        <div class="input-section">
+          <label id="email-label" for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+        <br />
+        <div class="input-section">
+          <label id="number-label" for="number">Number</label>
+          <input
+            type="number"
+            id="number"
+            name="number"
+            placeholder="Age"
+            required
+            min="10"
+            max="99"
+          />
+        </div>
+        <br />
+        <div class="input-section">
+          <label id="dropdown-label" for="dropdown"
+            >What server are you in?</label
+          >
+          <select id="dropdown" name="dropdown" required>
+            <option disabled selected>Select a server</option>
+            <option value="aether">Aether</option>
+            <option value="chaos">Chaos</option>
+            <option value="crystal">Crystal</option>
+            <option value="elemental">Elemental</option>
+            <option value="gaia">Gaia</option>
+            <option value="light">Light</option>
+            <option value="mana">Mana</option>
+            <option value="primal">Primal</option>
+          </select>
+        </div>
+        <div id="role-section">
+          <p id="role-label">What is your favorite role?</p>
+          <input id="tank" type="radio" name="roles" value="tank" checked />
+          <label id="tank-label" for="tank">Tank</label><br />
+          <input id="healer" type="radio" name="roles" value="healer" />
+          <label id="healer-label" for="healer">Healer</label><br />
+          <input id="melee-dps" type="radio" name="roles" value="melee-dps" />
+          <label id="melee-dps-label" for="melee-dps">Melee DPS</label><br />
+          <input
+            id="physical-ranged-dps"
+            type="radio"
+            name="roles"
+            value="physical-ranged-dps"
+          />
+          <label id="physical-ranged-dps-label" for="physical-ranged-dps"
+            >Physical Ranged DPS</label
+          ><br />
+          <input
+            id="magic-ranged-dps"
+            type="radio"
+            name="roles"
+            value="magic-ranged-dps"
+          />
+          <label id="magic-ranged-dps-label" for="magic-ranged-dps"
+            >Magic Ranged DPS</label
+          >
+        </div>
+        <p id="job-label">What are your favorite jobs?</p>
+        <div id="job-section">
+          <input id="paladin" type="checkbox" name="jobs" value="paladin" />
+          <label id="paladin-label" for="paladin">Paladin</label><br />
+          <input id="warrior" type="checkbox" name="jobs" value="warrior" />
+          <label id="warrior-label" for="warrior">Warrior</label><br />
+          <input
+            id="dark-knight"
+            type="checkbox"
+            name="jobs"
+            value="dark-knight"
+          />
+          <label id="dark-knight-label" for="dark-knight">Dark Knight</label
+          ><br />
+          <input
+            id="gunbreaker"
+            type="checkbox"
+            name="jobs"
+            value="gunbreaker"
+          />
+          <label id="gunbreaker-label" for="gunbreaker">Gunbreaker</label><br />
+          <input
+            id="white-mage"
+            type="checkbox"
+            name="jobs"
+            value="white-mage"
+          />
+          <label id="white-mage-label" for="white-mage">White Mage</label><br />
+          <input id="scholar" type="checkbox" name="jobs" value="scholar" />
+          <label id="scholar-label" for="scholar">Scholar</label><br />
+          <input
+            id="astrologian"
+            type="checkbox"
+            name="jobs"
+            value="astrologian"
+          />
+          <label id="astrologian-label" for="astrologian">Astrologian</label
+          ><br />
+          <input id="sage" type="checkbox" name="jobs" value="sage" />
+          <label id="sage-label" for="sage">Sage</label><br />
+          <input id="dragoon" type="checkbox" name="jobs" value="dragoon" />
+          <label id="dragoon-label" for="dragoon">Dragoon</label><br />
+          <input id="monk" type="checkbox" name="jobs" value="monk" />
+          <label id="monk-label" for="monk">Monk</label><br />
+          <input id="ninja" type="checkbox" name="jobs" value="ninja" />
+          <label id="ninja-label" for="ninja">Ninja</label><br />
+          <input id="samurai" type="checkbox" name="jobs" value="samurai" />
+          <label id="samurai-label" for="samurai">Samurai</label><br />
+          <input id="reaper" type="checkbox" name="jobs" value="reaper" />
+          <label id="reaper-label" for="reaper">Reaper</label><br />
+          <input id="bard" type="checkbox" name="jobs" value="bard" />
+          <label id="bard-label" for="bard">Bard</label><br />
+          <input id="machinist" type="checkbox" name="jobs" value="machinist" />
+          <label id="machinist-label" for="machinist">Machinist</label><br />
+          <input id="dancer" type="checkbox" name="jobs" value="dancer" />
+          <label id="dancer-label" for="dancer">Dancer</label><br />
+          <input id="summoner" type="checkbox" name="jobs" value="summoner" />
+          <label id="summoner-label" for="summoner">Summoner</label><br />
+          <input
+            id="black-mage"
+            type="checkbox"
+            name="jobs"
+            value="black-mage"
+          />
+          <label id="black-mage-label" for="black-mage">Black Mage</label><br />
+          <input id="red-mage" type="checkbox" name="jobs" value="red-mage" />
+          <label id="red-mage-label" for="red-mage">Red Mage</label>
+        </div>
+        <div id="comment-section">
+          <br />
+          <label id="comments-label" for="comments"
+            >Any comments or suggestions?</label
+          >
+          <textarea
+            id="comments"
+            name="comments"
+            rows="10"
+            cols="33"
+            placeholder="Enter your comments here..."
+          ></textarea>
+        </div>
+        <div id="submit-section">
+          <button id="submit" type="submit">Submit</button>
+        </div>
+      </form>
+    </main>
+    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+  </body>
 </html>
