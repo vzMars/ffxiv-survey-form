@@ -1,7 +1,31 @@
-# survey-form
+# FFXIV Survey Form
 
-A survey form for Final Fantasy XIV made for freeCodeCamp project submission.
+This website allows users to fill out a survey form for the MMORPG Final Fantasy XIV.
 
-This page is build using plain HTML and CSS.
+**Link to project:** https://vzmars.github.io/ffxiv-survey-form/
 
-<img src = "images/fullpage.png">
+![alt text](https://i.imgur.com/iHqHrbk.jpg)
+
+## How It's Made:
+
+**Tech used:** HTML, CSS
+
+This website was created using only HTML and CSS. The layout of this site uses flexbox and is fully responsive for different viewport sizes. The form asks for the name, email, age and game related info from the user.
+
+## Optimizations:
+
+I would love to go back and add JavaScript to the form to allow form submission and add form validation.
+
+## Lessons Learned:
+
+I learned the basics of working with forms and all the tags you can use with them. For this form I used inputs, labels, a select dropdown, radio buttons, checkboxes, a text area input, and a button to submit everything. I also learned how to style them with CSS.
+
+## More Projects:
+
+Take a look at these other projects that I have in my portfolio:
+
+**Daft Punk Tribute Page:** https://vzmars.github.io/daft-punk-tribute-page/
+
+**Elemental Rock–Paper–Scissors:** https://vzmars.github.io/elemental-rock-paper-scissors/
+
+**Dragon Quest Landing Page:** https://vzmars.github.io/dragon-quest-landing-page/

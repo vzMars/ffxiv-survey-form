@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-image: url('../images/ffxiv.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  text-align: center;
+  color: rgb(255, 209, 154);
+  font-size: 2rem;
+  font-weight: 700;
+  text-shadow: 2px 2px rgb(0, 0, 0);
+  padding: 0 1rem;
+}
+
+main {
+  background: rgba(211, 211, 211, 0.8);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  max-width: 80rem;
+  margin: 4rem 1rem;
+}
+
+form {
+  padding: 1rem;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+}
+
+input,
+textarea {
+  padding: 0.5rem;
+}
+
+label {
+  font-weight: 700;
+}
+
+input[type='radio'],
+input[type='checkbox'] {
+  width: initial;
+}
+
+button {
+  background-color: rgb(120, 221, 237);
+  text-align: center;
+  width: 100%;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 2rem;
+  font-family: inherit;
+  font-weight: 700;
+}
+
+.role-section,
+.job-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+section > input,
+section > select,
+section > textarea {
+  margin-top: 1rem;
+}
