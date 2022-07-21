@@ -24,8 +24,8 @@ I learned the basics of working with forms and all the tags you can use with the
 
 Take a look at these other projects that I have in my portfolio:
 
-**Daft Punk Tribute Page:** https://vzmars.github.io/daft-punk-tribute-page/
+**Daft Punk Tribute Page:** https://github.com/vzMars/daft-punk-tribute-page
 
-**Elemental Rock–Paper–Scissors:** https://vzmars.github.io/elemental-rock-paper-scissors/
+**Elemental Rock–Paper–Scissors:** https://github.com/vzMars/elemental-rock-paper-scissors
 
-**Dragon Quest Landing Page:** https://vzmars.github.io/dragon-quest-landing-page/
+**Dragon Quest Landing Page:** https://github.com/vzMars/dragon-quest-landing-page
