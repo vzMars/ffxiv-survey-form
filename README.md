@@ -10,7 +10,7 @@ This website allows users to fill out a survey form for the MMORPG Final Fantasy
 
 **Tech used:** HTML, CSS
 
-This website was created using only HTML and CSS. The layout of this site uses flexbox and is fully responsive for different viewport sizes. The form asks for the name, email, age and game related info from the user.
+This website was created using only HTML and CSS. The layout of this site uses flexbox and is fully responsive for different viewport sizes. The form asks for the name, email, age, and game-related info from the user.
 
 ## Optimizations:
 
@@ -18,7 +18,7 @@ I would love to go back and add JavaScript to the form to allow form submission 
 
 ## Lessons Learned:
 
-I learned the basics of working with forms and all the tags you can use with them. For this form I used inputs, labels, a select dropdown, radio buttons, checkboxes, a text area input, and a button to submit everything. I also learned how to style them with CSS.
+I learned the basics of working with forms and all the tags you can use with them. For this form, I used inputs, labels, a select dropdown, radio buttons, checkboxes, a text area input, and a button to submit everything. I also learned how to style them with CSS.
 
 ## More Projects:
 
